@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  style={
+    Object {
+      "alignItems": "center",
+      "background": "dimgrey",
+      "border": "solid red",
+      "height": "75px",
+      "justifyContent": "center",
+      "margin": "auto",
+      "marginTop": "10px",
+      "padding": "20px",
+      "width": "200px",
+    }
+  }
+>
+  <div
+    className="row center-xs"
+  >
+    <div
+      className="col-xs-4"
+    >
+      <div>
+        <label
+          style={
+            Object {
+              "fontSize": "48px",
+            }
+          }
+        />
+      </div>
+    </div>
+    <div
+      className="col-xs-4"
+    >
+      <label
+        style={
+          Object {
+            "fontSize": "48px",
+          }
+        }
+      >
+        :
+      </label>
+    </div>
+    <div
+      className="col-xs-4"
+    >
+      <div>
+        <label
+          style={
+            Object {
+              "fontSize": "48px",
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

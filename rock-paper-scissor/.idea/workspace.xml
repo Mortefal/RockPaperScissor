@@ -2,19 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41ede5d5-0348-4f59-b8d1-018574aa7aef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Scoreboard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__test__/Button.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__test__/Digit.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__test__/HeaderTest.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__test__/Scoreboard.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Button.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Button.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Button.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Digit.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Digit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Scoreboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Scoreboard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/serviceWorker.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/serviceWorker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/__test__/App.test.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -81,29 +77,29 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="2" />
-          <entry key="js" value="8" />
-          <entry key="json" value="1" />
+          <entry key="js" value="14" />
+          <entry key="json" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="2" />
-          <entry key="JSON" value="1" />
-          <entry key="JavaScript" value="8" />
+          <entry key="JSON" value="2" />
+          <entry key="JavaScript" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="230" />
-          <entry key="js" value="2840" />
+          <entry key="css" value="255" />
+          <entry key="js" value="3488" />
           <entry key="json" value="37" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="230" />
+          <entry key="CSS" value="255" />
           <entry key="JSON" value="37" />
-          <entry key="JavaScript" value="2840" />
+          <entry key="JavaScript" value="3488" />
         </counts>
       </usages-collector>
     </session>
@@ -112,11 +108,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/App.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="221">
-                  <caret line="61" column="49" selection-start-line="61" selection-start-column="49" selection-end-line="61" selection-end-column="49" />
+                <state relative-caret-position="1122">
+                  <caret line="78" column="30" selection-start-line="78" selection-start-column="30" selection-end-line="78" selection-end-column="30" />
                   <folding>
                     <element signature="e#0#41#0" expanded="true" />
                   </folding>
@@ -127,16 +123,26 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/Button.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="272">
-                  <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+                <state relative-caret-position="204">
+                  <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/App.test.js">
+            <entry file="file://$PROJECT_DIR$/src/__test__/HeaderTest.test.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state>
+                <state relative-caret-position="17">
+                  <caret line="1" selection-start-line="1" selection-end-line="9" selection-end-column="3" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/__test__/Button.test.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="119">
+                  <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
                   <folding>
                     <element signature="e#0#26#0" expanded="true" />
                   </folding>
@@ -145,10 +151,43 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/Button.js">
+            <entry file="file://$PROJECT_DIR$/src/__test__/Digit.test.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="357">
-                  <caret line="21" column="118" selection-start-line="21" selection-start-column="118" selection-end-line="21" selection-end-column="118" />
+                <state relative-caret-position="102">
+                  <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+                  <folding>
+                    <element signature="e#0#26#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/__test__/Scoreboard.test.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="51">
+                  <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+                  <folding>
+                    <element signature="e#0#26#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/package.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="272">
+                  <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/__test__/App.test.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="153">
+                  <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
                   <folding>
                     <element signature="e#0#26#0" expanded="true" />
                   </folding>
@@ -159,8 +198,20 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/Digit.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="153">
-                  <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+                <state relative-caret-position="102">
+                  <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/Header.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="255">
+                  <caret line="15" column="59" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="59" />
+                  <folding>
+                    <element signature="e#0#26#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -188,8 +239,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -205,10 +256,15 @@
         <option value="$PROJECT_DIR$/src/Scoreboard.js" />
         <option value="$PROJECT_DIR$/src/Header.css" />
         <option value="$PROJECT_DIR$/src/App.css" />
-        <option value="$PROJECT_DIR$/src/Button.css" />
         <option value="$PROJECT_DIR$/src/Button.js" />
         <option value="$PROJECT_DIR$/src/Header.js" />
+        <option value="$PROJECT_DIR$/src/Button.css" />
         <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/__test__/HeaderTest.test.js" />
+        <option value="$PROJECT_DIR$/src/__test__/Digit.test.js" />
+        <option value="$PROJECT_DIR$/src/__test__/Scoreboard.test.js" />
+        <option value="$PROJECT_DIR$/src/__test__/Button.test.js" />
+        <option value="$PROJECT_DIR$/src/__test__/App.test.js" />
       </list>
     </option>
   </component>
@@ -252,6 +308,12 @@
               <item name="rock-paper-scissor" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="rock-paper-scissor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rock-paper-scissor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="__test__" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -269,9 +331,16 @@
     <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="C:\Users\Morten\Desktop\MyReactFails\RockPaperScissor\rock-paper-scissor\node_modules\eslint" />
     <property name="node.js.selected.package.standard" value="C:\Users\Morten\Desktop\MyReactFails\RockPaperScissor\rock-paper-scissor\node_modules\eslint" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/react-scripts" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\Morten\Desktop\MyReactFails\rock-paper-scissor\node_modules\prettier" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Morten\Desktop\MyReactFails\RockPaperScissor\rock-paper-scissor\src\__test__" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -285,6 +354,42 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="Jest.renders correctly">
+    <configuration name="HeaderText" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/src/__test__/HeaderTest.test.js" />
+      <test-names>
+        <test-name value="HeaderText" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="renders correctly" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/__test__/HeaderTest.test.js" />
+      <test-names>
+        <test-name value="renders correctly" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Jest.HeaderText" />
+      <item itemvalue="Jest.renders correctly" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.renders correctly" />
+        <item itemvalue="Jest.HeaderText" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -296,12 +401,32 @@
       <option name="presentableId" value="Default" />
       <updated>1543093694305</updated>
       <workItem from="1543093696012" duration="2993000" />
-      <workItem from="1543333520640" duration="6890000" />
+      <workItem from="1543333520640" duration="9261000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="HeaderText - 2018.11.27 at 19h 08m 44s.xml">
+      <configuration name="HeaderText" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="HeaderText - 2018.11.27 at 19h 09m 01s.xml">
+      <configuration name="HeaderText" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="renders_correctly - 2018.11.27 at 19h 12m 16s.xml">
+      <configuration name="renders correctly" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="renders_correctly - 2018.11.27 at 19h 13m 38s.xml">
+      <configuration name="renders correctly" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="renders_correctly - 2018.11.27 at 19h 15m 56s.xml">
+      <configuration name="renders correctly" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="Update_snapshot_for_renders_correctly - 2018.11.27 at 19h 16m 04s.xml">
+      <configuration name="Update snapshot for renders correctly" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9883000" />
+    <option name="totallyTimeSpent" value="12254000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="0" />
@@ -317,7 +442,7 @@
       <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.43926248" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -382,39 +507,6 @@
     <entry file="file://$PROJECT_DIR$/src/Header.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Digit.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Button.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -434,17 +526,88 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Button.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        <state relative-caret-position="204">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="59" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="59" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="61" column="49" selection-start-line="61" selection-start-column="49" selection-end-line="61" selection-end-column="49" />
+        <state relative-caret-position="1122">
+          <caret line="78" column="30" selection-start-line="78" selection-start-column="30" selection-end-line="78" selection-end-column="30" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/__test__/HeaderTest.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="9" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Digit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/__test__/Button.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/__test__/Digit.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/__test__/Scoreboard.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/__test__/App.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>

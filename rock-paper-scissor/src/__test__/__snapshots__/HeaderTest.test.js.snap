@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div>
+  <header
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#0E0B16",
+        "color": "white",
+        "display": "flex",
+        "fontSize": "32px",
+        "justifyContent": "center",
+        "minHeight": "150px",
+      }
+    }
+  >
+    Rock-Paper-Scissors-Lizard-Spock!
+  </header>
+</div>
+`;

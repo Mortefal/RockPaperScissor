@@ -19,7 +19,8 @@ class App extends Component {
         user: 0,
         computer: 0,
         userChoice: '',
-        computerChoice: ''
+        computerChoice: '',
+        winner: ''
     };
     this.handleClick = this.handleClick.bind(this);
   }
@@ -38,7 +39,8 @@ class App extends Component {
             case 'LizardSpock':
                 this.setState({
                         user: this.state.user + 1,
-                        computer: this.state.computer
+                        computer: this.state.computer,
+                        winner: "User wins!"
                     })
                 break
             case 'ScissorRock':
@@ -54,12 +56,14 @@ class App extends Component {
                 this.setState({
                     user: this.state.user,
                     computer: this.state.computer + 1,
+                    winner: "Computer wins!"
                 })
                 break
             default:
                 this.setState({
                     user: this.state.user,
-                    computer: this.state.computer
+                    computer: this.state.computer,
+                    winner: "Tie!"
                 })
                 break
         }
@@ -72,7 +76,7 @@ class App extends Component {
         let y = this.computerPlays()
         this.setState({
             userChoice: x,
-            computerChoice: y
+            computerChoice: y,
         })
         this.winner(x,y)
 
@@ -91,6 +95,7 @@ class App extends Component {
         <Header />
         <Scoreboard user={this.state.user} computer={this.state.computer} />
           <h5>User played {this.state.userChoice} and computer played {this.state.computerChoice}</h5>
+          <h6>{this.state.winner}</h6>
           <Row style={RowStyle}>
               <Button name="Paper" onClick={this.handleClick} />
               <Button name="Rock" onClick={this.handleClick}/>
