@@ -1,5 +1,5 @@
 import React from 'react';
-import './Button.css';
+import '../Styling/Button.css';
 
 const Buttonstyle = {
     margin: "40px"

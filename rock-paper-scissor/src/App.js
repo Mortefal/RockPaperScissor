@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import Button from './Button';
-import Scoreboard from './Scoreboard';
+import Button from './Components/Button';
+import Scoreboard from './Components/Scoreboard';
 import {Row} from 'react-flexbox-grid';
-import './App.css';
-import Header from './Header';
+import './Styling/App.css';
+import Header from './Components/Header';
 
 const RowStyle = {
     justifyContent: "center",

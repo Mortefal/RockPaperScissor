@@ -1,5 +1,5 @@
 import React from 'react';
-import './Header.css';
+import '../Styling/Header.css';
 
 const style = {
     display: "flex",

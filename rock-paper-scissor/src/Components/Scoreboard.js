@@ -1,6 +1,6 @@
 import React from 'react';
 import Digit from './Digit';
-import './Scoreboard.css';
+import '../Styling/Scoreboard.css';
 import {Row, Col} from 'react-flexbox-grid';
 
 const ScoreBox = {

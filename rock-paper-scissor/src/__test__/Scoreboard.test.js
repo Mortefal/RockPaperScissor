@@ -1,6 +1,6 @@
 import React from "react";
 import renderer from 'react-test-renderer';
-import Scoreboard from "../Scoreboard";
+import Scoreboard from "../Components/Scoreboard";
 
 it('renders correctly', () => {
     const tree = renderer
